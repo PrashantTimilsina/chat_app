@@ -4,6 +4,7 @@ body {
 }
 .join_room {
   height: 80vh;
+  max-width: 100%;
   display: flex;
 
   justify-content: center;
