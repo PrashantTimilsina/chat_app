@@ -11,7 +11,7 @@ const Chat = ({ socket, username, room }) => {
   useEffect(() => {
     const fetchMessages = async () => {
       try {
-        const res = await fetch(`http://localhost:8000/messages/${room}`);
+        const res = await fetch(`https://chat-app-usc4.onrender.com/messages/${room}`);
         const data = await res.json();
         setMessageList(data);
       } catch (err) {
