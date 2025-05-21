@@ -9,7 +9,7 @@ dotenv.config();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:5174",
+    origin: "https://chat-app-frontend-5rhy.onrender.com",
     methods: ["GET", "PUT"],
   },
 });
