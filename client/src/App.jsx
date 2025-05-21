@@ -2,7 +2,7 @@ import { useState } from "react";
 import io from "socket.io-client";
 import Chat from "./Chat";
 import music from "./mixkit-tile-game-reveal-960.wav";
-const socket = io.connect("http://localhost:8000");
+const socket = io.connect("https://chat-app-usc4.onrender.com");
 
 const App = () => {
   const [username, setUsername] = useState("");
